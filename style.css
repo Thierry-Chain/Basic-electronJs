@@ -1,0 +1,5 @@
+.bg-lighter {
+  background: rgba(168, 166, 166, 0.568) !important;
+  color: #252525;
+  -webkit-app-region: drag;
+}
