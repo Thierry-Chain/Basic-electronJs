@@ -1,0 +1,13 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "thierry irambona",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^17.2.0"
+  },
+"scripts": {
+    "start": "electron ."
+  }
+}
