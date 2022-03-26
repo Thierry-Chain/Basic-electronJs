@@ -5,21 +5,16 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> 
     <title>Electron app</title>
   <link rel="stylesheet" href="./bootstrap.min.css">
   <link rel="stylesheet" href="./style.css">
   </head>
   <body class="bg-secondary">
-    <ul class="list-group d-flex justify-content align-items list-group-flush">
-
-      <blockquote class="blockquote bg-lighter list-group-item py-4 text-center">
-  <p class="mb-0 " id="quote">Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom.</p>
-  <footer class="blockquote-footer" id="source">Marcel Proust in <cite title="Source Title">Incredible</cite></footer>
-</blockquote>
- 
-</ul>
+   <div id="test" class="btn btn-ms p-3 btn-info">Test</div>
     <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
+    <script type="module" src="./index.js"></script>
+    
+    </script>
   </body>
 </html>
